@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+<!--  tim max của các số lẻ trong mảng-->
+let a = +prompt('nhập n: ');
+let array = prompt('nhập các phần tử: ' + a ).split(',');
+
+let max = array[0]
+for (let i = 0; i < a; i++){
+  if(array[i]> max && array % 2 === 1){
+    max = array[i];
+  }
+}
+document.write("max lẻ là: " + max)
+</script>
+</body>
+</html>

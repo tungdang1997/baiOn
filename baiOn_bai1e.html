@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--nhập soosa,b,c kiểm tra xem a,b,c có phải là 3 cạnh của:
+a, 1 tam giác
+b, 1 tam giác cân
+c, 1 tam giác đều
+d, 1 tam giác vuông-->
+
+
+<script>
+let a = +prompt("nhap canh a: ")
+let b = +prompt("nhap canh b: ")
+let c =+prompt("nhap canh c: ")
+    if ( c**2 ===a**2 + b**2 ) {
+    document.write("Đây là tam giác vuông ")
+
+    } else if (a === b && a > c) {
+        document.write("Đây là tam giác cân");
+    } else if (a === b && a === c) {
+        document.write("Đây là tam giác đều");
+    } else (a + b > c || a + c > b || c + b > a)
+    {
+        document.write("a,b,c là 3 cạnh của tam giác");
+    }
+
+</script>
+</body>
+</html>

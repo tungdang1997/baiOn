@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = +prompt('nhập n: ');
+  let array = prompt('nhập các phần tử: ' + a ).split(',');
+
+
+  let sum3 = 0;
+  for(let i = 0; i< a; i++){
+    if(array[i] % 6 ===0){
+      sum3 += +array[i];
+    }
+  }
+
+  document.write("số chia hết cho 6: " + sum3)
+</script>
+</body>
+</html>
