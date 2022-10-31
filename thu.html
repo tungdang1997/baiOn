@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="thu1.js"></script>
+</head>
+<body>
+<body>
+<div class="container">
+    <div>
+        <h1><big>Mục Sản Phẩm</big></h1>
+        <table style="height: 300px" >
+            <thead>
+            <tr>
+                <th>Mã sản phẩm</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá sản phẩm</th>
+                <th>&nbsp;</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>iPhone Xs</td>
+                <td>VND <span class="amount">8000000</span></td>
+                <td><button class="btn" type="button" onclick="addToCart(this)">Thêm</button></td>
+            </tr>  <tr>
+                <td>2</td>
+                <td>iPhone 11</td>
+                <td>VND <span class="amount">12000000</span></td>
+                <td><button class="btn"  type="button" onclick="addToCart(this)" >Thêm</button></td>
+            </tr>  <tr>
+                <td>3</td>
+                <td>iPhone 12</td>
+                <td>VND <span class="amount">16000000</span></td>
+                <td><button class="btn" type="button" onclick="addToCart(this)" >Thêm</button></td>
+            </tr></tr>  <tr>
+                <td>4</td>
+                <td>iPhone 13</td>
+                <td>VND <span class="amount">22000000</span></td>
+                <td><button class="btn" type="button" onclick="addToCart(this)" >Thêm</button></td>
+            </tr></tr>  <tr>
+                <td>5</td>
+                <td>iPhone 14</td>
+                <td>VND <span class="amount">30000000</span></td>
+                <td><button class="btn" type="button" onclick="addToCart(this)">Thêm</button></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="shoping">
+        <h1 class="title">Giỏ hàng của bạn</h1>
+        <table id="giohang" style="display: none">
+            <thead>
+            <tr>
+                <th>Mã</th>
+                <th>Tên</th>
+                <th>Giá</th>
+                <th id="xoa">&nbsp;</th>
+            </tr>
+            </thead>
+            <tbody id ="hangchon">
+
+            </tbody>
+        </table>
+        <div id="tong" style="display: none; text-align: right; font-size: 20px">
+            Tổng tiền: VND <span id="total">12000000</span>  <button onclick="thongbao()">Mua hàng</button>
+        </div>
+
+        <div id="chuamua" style="text-align: right; font-size: 20px">
+            Bạn chưa chọn mặt hàng nào!
+        </div>
+    </div>
+</div>
+</body>
+</body>
+</html>

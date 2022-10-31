@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="tron" width="500px" height="500px" style="border: 1px solid">
+</canvas>
+<script>
+//   let arr = prompt('nhap so: ')
+//   let number = prompt('nhap number: ')
+//   let index = prompt('nhap index: ')
+//   function baiTap(arr, number, index) {
+// for (let )
+//   }
+
+
+class HT {
+    radius;
+    color;
+
+    constructor(x, y) {
+        this.radius = x;
+        this.color = y;
+    }
+
+    getRadius() {
+        return this.radius
+    }
+
+    getArea() {
+        alert(Math.PI * this.radius * this.radius)
+    }
+
+    getDraw() {
+        let ctx = document.getElementById('tron').getContext('2d');
+        ctx.arc(100, 100, this.radius, 0, 2 * Math.PI);
+        ctx.fillStyle = this.color;
+        ctx.fill();
+    }
+
+}
+
+let HT1 = new HT(100, 'red');
+HT1.getDraw();
+</script>
+</body>
+</html>

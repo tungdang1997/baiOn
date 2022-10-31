@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="773bede5-7301-4e15-a79e-9cdf6e5a634b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luyenTap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thu1.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/baiOn_bai2e.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GKdh2DZ7yRUOrNiKi5beT6NRDs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="773bede5-7301-4e15-a79e-9cdf6e5a634b" name="Changes" comment="" />
+      <created>1666141324434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666141324434</updated>
+      <workItem from="1666141325659" duration="12786000" />
+      <workItem from="1666236723396" duration="63000" />
+      <workItem from="1666746150708" duration="517000" />
+      <workItem from="1666750946764" duration="1746000" />
+      <workItem from="1666784141285" duration="2370000" />
+      <workItem from="1666837465163" duration="7443000" />
+      <workItem from="1666865731936" duration="298000" />
+      <workItem from="1666921129874" duration="7000" />
+      <workItem from="1666923551068" duration="916000" />
+      <workItem from="1666931331801" duration="1274000" />
+      <workItem from="1667179236714" duration="11656000" />
+      <workItem from="1667198677107" duration="2626000" />
+      <workItem from="1667202838765" duration="3660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
